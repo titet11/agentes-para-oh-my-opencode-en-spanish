@@ -1,0 +1,168 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/oh-my-opencode.schema.json",
+  "auto_update": false,
+  "disabled_mcps": [],
+  "disabled_agents": [],
+  "disabled_skills": [],
+  "disabled_hooks": ["auto-update-checker"],
+  "disabled_commands": [],
+  "disabled_tools": [],
+  "agents": {
+    "sisyphus": {
+      "model": "",
+      "variant": "max",
+      "prompt_append": "file://~/.config/opencode/prompts/sisyphus.md"
+    },
+    "hephaestus": {
+      "model": "",
+      "variant": "max",
+      "allow_non_gpt_model": true,
+      "prompt_append": "file://~/.config/opencode/prompts/hephaestus.md"
+    },
+    "sisyphus-junior": {
+      "model": "",
+      "variant": "max",
+      "prompt_append": "file://~/.config/opencode/prompts/sisyphus-junior.md"
+    },
+    "prometheus": {
+      "model": "",
+      "variant": "max"
+    },
+    "metis": {
+      "model": "",
+      "variant": "max"
+    },
+    "momus": {
+      "model": "",
+      "variant": "max"
+    },
+    "oracle": {
+      "model": "",
+      "variant": "max",
+      "prompt_append": "file://~/.config/opencode/prompts/oracle.md"
+    },
+    "librarian": {
+      "model": "",
+      "variant": "max"
+    },
+    "explore": {
+      "model": "",
+      "variant": "max"
+    },
+    "multimodal-looker": {
+      "model": "",
+      "variant": "max"
+    },
+    "atlas": {
+      "model": "",
+      "variant": "max"
+    },
+    "build": {
+      "model": "",
+      "variant": "max"
+    },
+    "plan": {
+      "model": "",
+      "variant": "max"
+    },
+    "OpenCode-Builder": {
+      "model": "",
+      "variant": "max"
+    }
+  },
+  "categories": {
+    "visual-engineering": {
+      "model": "",
+      "variant": "max"
+    },
+    "ultrabrain": {
+      "model": "",
+      "variant": "max"
+    },
+    "deep": {
+      "model": "",
+      "variant": "max"
+    },
+    "artistry": {
+      "model": "",
+      "variant": "max"
+    },
+    "quick": {
+      "model": "",
+      "variant": "max"
+    },
+    "unspecified-low": {
+      "model": "",
+      "variant": "max"
+    },
+    "unspecified-high": {
+      "model": "",
+      "variant": "max"
+    },
+    "writing": {
+      "model": "",
+      "variant": "max"
+    }
+  },
+  "git_master": {
+    "commit_footer": false,
+    "include_co_authored_by": false,
+    "git_env_prefix": "GIT_MASTER=1"
+  },
+  "runtime_fallback": {
+    "enabled": false
+  },
+  "background_task": {
+    "staleTimeoutMs": 360000000,
+    "messageStalenessTimeoutMs": 360000000,
+    "taskTtlMs": 360000000,
+    "sessionGoneTimeoutMs": 3600000,
+    "maxToolCalls": 200,
+    "circuitBreaker": {}
+  },
+  "experimental": {
+    "truncate_all_tool_outputs": false,
+    "safe_hook_creation": true,
+    "model_fallback_title": false,
+    "plugin_load_timeout_ms": 60000,
+    "dynamic_context_pruning": {
+      "enabled": false,
+      "notification": "detailed",
+      "turn_protection": {
+        "enabled": true,
+        "turns": 3
+      },
+      "protected_tools": [
+        "task",
+        "todowrite",
+        "todoread",
+        "lsp_rename",
+        "session_read",
+        "session_write",
+        "session_search"
+      ],
+      "strategies": {
+        "deduplication": {
+          "enabled": true
+        },
+        "supersede_writes": {
+          "enabled": true,
+          "aggressive": false
+        },
+        "purge_errors": {
+          "enabled": true,
+          "turns": 5
+        }
+      }
+    }
+  },
+  "notification": {
+    "force_enable": false
+  },
+  "babysitting": {
+    "timeout_ms": 120000
+  },
+  "start_work": {
+    "auto_commit": true
+  }
+}
