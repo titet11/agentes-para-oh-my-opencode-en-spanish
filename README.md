@@ -4,7 +4,7 @@
 [![Agentes](https://img.shields.io/badge/Agentes-14-blue?style=for-the-badge)](https://github.com/titet11/agentes-para-oh-my-opencode-en-spanish)
 [![Categorías](https://img.shields.io/badge/Categor%C3%ADas-8-green?style=for-the-badge)](https://github.com/titet11/agentes-para-oh-my-opencode-en-spanish)
 [![Plataforma](https://img.shields.io/badge/Plataforma-OpenCode%20Desktop-purple?style=for-the-badge)](https://github.com/titet11/agentes-para-oh-my-opencode-en-spanish)
-[![Modelo](https://img.shields.io/badge/Modelo-antigravity--claude--opus--4--6--thinking-orange?style=for-the-badge)](https://github.com/titet11/agentes-para-oh-my-opencode-en-spanish)
+[![Modelo](https://img.shields.io/badge/Modelo-Compatible%20con%20Extended%20Thinking-orange?style=for-the-badge)](https://github.com/titet11/agentes-para-oh-my-opencode-en-spanish)
 
 ---
 
@@ -469,7 +469,7 @@ Implementa usando la API verificada
 
 1. **OpenCode Desktop** instalado y configurado.
 2. **Oh My OpenAgent** instalado como extensión de OpenCode Desktop.
-3. Un modelo compatible configurado (este sistema usa `antigravity-claude-opus-4-6-thinking` variante `max`).
+3. Un modelo compatible configurado (este sistema requiere un modelo con capacidad de pensamiento extendido, variante `max`).
 
 ### Pasos de instalación
 
@@ -503,7 +503,7 @@ tu-proyecto/
 
 **Paso 5:** Verifica que los agentes aparecen correctamente en la interfaz de Oh My OpenAgent.
 
-> **Nota:** Si usas un modelo diferente a `antigravity-claude-opus-4-6-thinking`, puedes cambiarlo en el archivo `oh-my-opencode.json`. Los prompts están diseñados para modelos con capacidad de pensamiento extendido, así que resultados pueden variar con modelos más pequeños.
+> **Nota:** Si usas un modelo diferente al recomendado, puedes cambiarlo en el archivo `oh-my-opencode.json`. Los prompts están diseñados para modelos con capacidad de pensamiento extendido, así que resultados pueden variar con modelos más pequeños.
 
 ---
 
@@ -519,7 +519,7 @@ agentes-para-oh-my-opencode-en-spanish/
         │
         ├── oh-my-opencode.json                  ← Configuración principal
         │                                          14 agentes, 8 categorías
-        │                                          Modelo: antigravity-claude-opus-4-6-thinking
+        │                                          Modelo: configurable por el usuario
         │
         └── prompts/
             │
@@ -558,13 +558,13 @@ agentes-para-oh-my-opencode-en-spanish/
 |---|---|
 | **OpenCode Desktop** | Instalado y funcional |
 | **Oh My OpenAgent** | Extensión instalada en OpenCode Desktop |
-| **Modelo de IA** | `antigravity-claude-opus-4-6-thinking` (variante `max`) recomendado |
+| **Modelo de IA** | Modelo con capacidad de pensamiento extendido (variante `max`) recomendado |
 | **Sistema operativo** | Windows, macOS, o Linux |
 | **Idioma** | Todos los prompts están en español |
 
 ### Sobre el modelo
 
-Este sistema fue diseñado y probado con `antigravity-claude-opus-4-6-thinking` en su variante `max`. Este modelo soporta pensamiento extendido (extended thinking), que es fundamental para las directivas de pensamiento prolongado y autocuestionamiento.
+Este sistema fue diseñado y probado con un modelo de alta capacidad con pensamiento extendido (extended thinking) en su variante `max`. Este modelo soporta pensamiento extendido (extended thinking), que es fundamental para las directivas de pensamiento prolongado y autocuestionamiento.
 
 Puedes usar otros modelos compatibles con OpenCode Desktop, pero ten en cuenta:
 
