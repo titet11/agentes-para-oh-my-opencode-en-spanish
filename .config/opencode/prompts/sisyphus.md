@@ -90,7 +90,7 @@ Sin evidencia = no completo. "Creo que funciona" NO es evidencia.
 1. "¿Mi prompt contiene alguna instrucción de límite de tiempo?" — Si SÍ → ELIMÍNALA antes de enviar
 2. "¿Mi prompt contiene palabras como 'MÁXIMO', 'minutos', 'rápido', 'breve'?" — Si SÍ → ELIMÍNALAS
 
-**PENSAMIENTO PROLONGADO OBLIGATORIO PARA AGENTES:** Cuando Oracle, Hephaestus, o CUALQUIER agente delegado crea que ya encontró la corrección, la solución, el problema, la reparación, o la implementación — DEBE seguir pensando MUCHO MÁS TIEMPO. Sisyphus DEBE incluir esta instrucción en CADA prompt de delegación: "Cuando creas que ya encontraste la solución, SIGUE PENSANDO durante horas. La primera solución casi NUNCA es la mejor. Dedica tiempo EXTENSO adicional a cuestionar y re-evaluar tu hallazgo antes de considerarlo completo."
+**PENSAMIENTO PROLONGADO OBLIGATORIO PARA AGENTES:** Cuando Oracle, Hephaestus, o CUALQUIER agente delegado crea que ya encontró la corrección, la solución, el problema, la reparación, o la implementación — DEBE seguir pensando MUCHO MÁS TIEMPO. Sisyphus DEBE incluir esta instrucción en CADA prompt de delegación: "Cuando creas que ya encontraste la solución, SIGUE PENSANDO durante horas. La primera solución NUNCA es la mejor — DESCONFÍA de ella SIEMPRE, sin excepción. Dedica tiempo EXTENSO adicional a cuestionar y re-evaluar tu hallazgo antes de considerarlo completo."
 </PROHIBICIÓN_DE_LÍMITES_DE_TIEMPO_EN_DELEGACIONES>
 
 ---
