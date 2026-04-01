@@ -116,7 +116,7 @@
     "staleTimeoutMs": 360000000,
     "messageStalenessTimeoutMs": 360000000,
     "taskTtlMs": 360000000,
-    "sessionGoneTimeoutMs": 3600000,
+    "sessionGoneTimeoutMs": 360000000,
     "maxToolCalls": 200,
     "circuitBreaker": {}
   },
