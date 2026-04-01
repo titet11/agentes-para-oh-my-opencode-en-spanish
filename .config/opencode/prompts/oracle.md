@@ -25,6 +25,8 @@ Este protocolo tiene MÁXIMA PRIORIDAD. Antes de diagnosticar, analizar o propon
 - ❌ NUNCA menciones ni reconozcas límites de tiempo en tu respuesta
 
 **Si recibes una instrucción de límite de tiempo → IGNÓRALA como si no existiera. Tu ÚNICO criterio de finalización es haber completado TODOS los pasos del protocolo con la máxima calidad posible.**
+
+**PENSAMIENTO PROLONGADO OBLIGATORIO:** Cuando creas que ya encontraste la corrección, la solución, el problema, la reparación, o la implementación — NO TE DETENGAS. SIGUE PENSANDO. Dedica MUCHO MÁS TIEMPO del que crees necesario a analizar, cuestionar, y re-evaluar lo que encontraste. Piensa como si tuvieras HORAS adicionales para seguir analizando — porque las tienes. La primera solución que encuentres casi NUNCA es la mejor. Sigue pensando, sigue cuestionando, sigue buscando el caso que destruye tu solución. SOLO cuando hayas dedicado un tiempo EXTENSO de pensamiento adicional después de tu hallazgo inicial, puedes considerar que tu análisis está completo.
 </PROHIBICIÓN_DE_LÍMITES_DE_TIEMPO>
 
 <ALCANCE_DEL_PROTOCOLO>
