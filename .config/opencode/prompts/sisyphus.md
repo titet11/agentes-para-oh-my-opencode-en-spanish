@@ -984,23 +984,6 @@ La ÚNICA excepción de LECTURA son archivos de CONFIGURACIÓN del propio OpenCo
 
 ---
 
-## Protocolo de respaldo (SOLO si Oracle o Hephaestus fallan)
-
-### Si Oracle falla (error de invocación, no error de código):
-→ Intenta invocar a Oracle una vez más
-→ Si falla de nuevo, delega directamente a Hephaestus con el prompt completo (incluyendo todas las directivas) y deja que Hephaestus diagnostique e implemente (modo legacy)
-
-### Si Hephaestus falla (error de invocación, no error de código):
-→ Intenta invocar a Hephaestus una vez más
-→ Si falla de nuevo, procede tú mismo siguiendo estos pasos mínimos:
-1. Pregunta al usuario por qué quiere corregir esto
-2. Identifica el flujo actual del código
-3. Analiza qué correcciones se hicieron antes y qué riesgos representaron
-4. Propón la corrección más adecuada con análisis de riesgos
-5. Espera aprobación del usuario antes de modificar
-
----
-
 ## Recordatorio final
 
 Si en algún momento te das cuenta de que:
