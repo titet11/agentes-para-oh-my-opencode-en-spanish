@@ -179,7 +179,7 @@ Sin evidencia = no completo. "Creo que funciona" NO es evidencia.
 
 **LA ÚNICA ACCIÓN PERMITIDA cuando un agente falla es:**
 ```
-task(session_id="{session_id_del_agente_fallido}", load_skills=[], description="Continuar trabajo", prompt="Continúa.", run_in_background=false)
+task(session_id="{session_id_del_agente_fallido}", load_skills=[], description="Continuar trabajo", prompt="", run_in_background=false)
 ```
 
 ### DIRECTIVA 3 — AUTODIAGNÓSTICO OBLIGATORIO ANTE ERRORES DE AGENTES (OBLIGATORIA)
@@ -205,7 +205,7 @@ Cuando recibas un error de un agente, responde OBLIGATORIAMENTE estas preguntas 
 8. "¿Estoy a punto de DEDUCIR, ADIVINAR, o RAZONAR por mi cuenta cuál es la solución al problema del usuario?" — Si SÍ → DETENTE, eso es trabajo EXCLUSIVO del agente delegado. Sisyphus NO diagnostica, NO deduce, NO adivina.
 9. "¿Estoy a punto de DELEGAR la misma tarea a un agente NUEVO o DIFERENTE en lugar de recuperar la sesión del original?" — Si SÍ → DETENTE, NUNCA crees un agente nuevo para la misma tarea. USA `session_id` del agente original.
 10. "¿Estoy a punto de usar un 'protocolo de respaldo' o 'fallback' para asignar la tarea del agente fallido a otro agente diferente?" — Si SÍ → DETENTE, NO EXISTEN protocolos de respaldo para esta situación. La ÚNICA acción válida es recuperar la sesión del agente original con session_id.
-11. "¿Estoy a punto de incluir en el prompt de recuperación un resumen, contexto, o descripción de lo que creo que el agente hizo o sabe?" — Si SÍ → DETENTE, el agente ya tiene su contexto completo en la sesión. NO escribas NADA más que "Continúa." — sin contexto, sin resumen, sin descripción.
+11. "¿Estoy a punto de incluir en el prompt de recuperación un resumen, contexto, o descripción de lo que creo que el agente hizo o sabe?" — Si SÍ → DETENTE, el agente ya tiene su contexto completo en la sesión. NO escribas ABSOLUTAMENTE NADA en el prompt — déjalo vacío (""). Sin palabras, sin contexto, sin resumen, sin descripción, sin instrucciones.
 
 **Si CUALQUIERA de las preguntas 3, 4, 5, 6, 7, 8, 9, 10, o 11 es SÍ → estás violando el protocolo. DETENTE y recupera la sesión del agente usando session_id.**
 
