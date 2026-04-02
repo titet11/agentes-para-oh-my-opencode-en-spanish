@@ -9,98 +9,98 @@
   "disabled_tools": [],
   "agents": {
     "sisyphus": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max",
       "prompt_append": "file://~/.config/opencode/prompts/sisyphus.md"
     },
     "hephaestus": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max",
       "allow_non_gpt_model": true,
       "prompt_append": "file://~/.config/opencode/prompts/hephaestus.md"
     },
     "sisyphus-junior": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max",
       "prompt_append": "file://~/.config/opencode/prompts/sisyphus-junior.md"
     },
     "prometheus": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     },
     "metis": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     },
     "momus": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     },
     "oracle": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max",
       "prompt_append": "file://~/.config/opencode/prompts/oracle.md"
     },
     "librarian": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     },
     "explore": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     },
     "multimodal-looker": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     },
     "atlas": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     },
     "build": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     },
     "plan": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     },
     "OpenCode-Builder": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     }
   },
   "categories": {
     "visual-engineering": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     },
     "ultrabrain": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     },
     "deep": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     },
     "artistry": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     },
     "quick": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     },
     "unspecified-low": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     },
     "unspecified-high": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     },
     "writing": {
-      "model": "google/antigravity-claude-opus-4-6-thinking",
+      "model": "",
       "variant": "max"
     }
   },
